@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "name": { "required": true, "disabled": true, "minLength": 2 },
+    "lastname": { "required": true, "disabled": false },
+    "email": { "required": true, "disabled": false, "pattern": "email" },
+    "phone": { "required": false, "disabled": false, "minLength": 10 },
+    "companyname": { "required": false, "disabled": true},
+    "addressline1": { "required": true, "disabled": false },
+    "addressline2": { "required": false, "disabled": true },
+    "postalcode": { "required": true, "disabled": false, "minLength": 5, "maxLength": 10 },
+    "city": { "required": true, "disabled": false },
+    "state": { "required": true, "disabled": false },
+    "country": { "required": true, "disabled": false }
+  }
+} 
+ 
